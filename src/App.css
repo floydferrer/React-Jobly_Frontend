@@ -1,0 +1,46 @@
+body {
+  background-image: url("https://www.creativefabrica.com/wp-content/uploads/2021/03/14/abstract-white-geometric-3d-background-Graphics-9557498-1.jpg");
+}
+
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading {
+  text-shadow: 2px 2px 5px #34302f;
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 45vh;
+  left: 45vw;
+}

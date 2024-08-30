@@ -1,0 +1,9 @@
+.text {
+    text-shadow: 2px 2px 5px #34302f;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 45vh;
+    left: 45vw;
+}
+
